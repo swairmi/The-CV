@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/353bf7bd00.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="cv_stylsheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali|Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1 class="james_experience top_banner">JAMES N</h1>
+          <br>
+      
+
+            <div class="titlebox_one"  style="text-align: center;">
+            <h5 class="title_one">WORK EXPERIENCE</h5>
+            <button class="titleone_button" id="both_title_buttons">Change to education history</button>
+            </div>
+
+            <div class="titlebox_two"  style="text-align: center;">
+            <h5 class="title_two">EDUCATION HISTORY</h5>
+            <button class="titletwo_button" id="both_title_buttons">Change to work experience</button>
+            </div>
+        </div>
+
+        <div class="col-md-1" id="pause_options">
+          <button class="pause_button top_banner" id="pau_changer">
+          <i class="fas fa-5x fa-bars"></i></button>
+
+          <button class="reverse_button top_banner" id="rev_changer">
+            <i class="fas fa-5x fa-times"></i></button>
+        </div>
+
+        <div class="col-md-7"></div>
+      </div>
+  </div>
+  </div>
+</div>
+<!-------------------------------------------------------->
+
+<div class="the_background_lines">
+<div class="svg_gradient"></div>
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="backing_liner" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 595.28 550.89" enable-background="new 0 0 595.28 841.89" xml:space="preserve">
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="109.03" y1="0" x2="126.32" y2="235.15"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="77.45" y1="261.47" x2="0" y2="296.05"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="126.32" y1="235.15" x2="77.45" y2="261.47"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="0" y1="540.41" x2="297.64" y2="420.94"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="126.32" y1="235.15" x2="256.95" y2="437.28"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="471.44" y1="0" x2="126.32" y2="235.15"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="297.64" y1="420.94" x2="297.64" y2="118.42"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="595.28" y1="248.31" x2="297.64" y2="269.68"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="595.28" y1="0" x2="446.46" y2="259"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="595.28" y1="571.24" x2="446.46" y2="259"/>
+    <line  class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="297.64" y1="420.94" x2="520.87" y2="415.12"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="195.5" y1="841.89" x2="256.95" y2="437.28"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="76.45" y1="509.73" x2="226.22" y2="639.58"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="357.15" y1="841.89" x2="520.87" y2="415.12"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="256.95" y1="437.28" x2="439.01" y2="628.5"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="595.28" y1="841.89" x2="439.01" y2="628.5"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="595.28" y1="571.24" x2="439.01" y2="628.5"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="76.45" y1="509.73" x2="0" y2="841.89"/>
+    <line class="backer_lines" stroke-width="6" stroke-miterlimit="10" x1="0" y1="0" x2="297.64" y2="118.42"/>
+  </svg>
+</div>
+
+
+
+
+<!-------------------------------------------------------->
+
+
+
+
+
+
+<div class="the_pause_menu"></div>
+          <div id="menu_options">
+            <a href="Home.html"><h4 class="option_two" id="menu_items">HOME</h4></a>
+            <a href="cv_experience.html"><h4 class="option_three" id="menu_items">EXPERIENCE</h4></a>
+            <a href="work.html"><h4 class="option_four" id="menu_items">MY WORK</h4></a>
+            <a href="cv_contact.html"><h4 class="option_five" id="menu_items">CONTACT</h4></a>
+          </div>
+
+
+<!-------------------------------------------------------->
+
+<div class="container">
+    <div class="section_info_boxes">
+
+      <div class="first_section_info">
+        <small class="info_boxes_title">
+          <u>PENN STUDIO INFORMATION</u></small>
+          <P class="info_boxes_desc">
+            As an apprentice for Penn Studio under the title of digital marketeer,  I practised a multitude of skills  mainly to do with coding as a front end developer. While learning how to code with <b>HTML</b>, <b>CSS</b> and <b>PHP</b> to get websites onto our CMS, <b>Wordpress</b> using a plugin called <b>Advanced custom fields</b>.
+            <br>
+            I then took it upon myself to learn parts of <b>JQuery</b> and <b>JavaScript</b> and even some of the extra <b>JavaScript libraries</b> like <b>GSAP</b> and <b>ScrollMagic</b> to add animation and extra functionality to the client work and the sites i would practise on.
+          </P>
+          <button class="penn_reverse">CLOSE</button>
+
+      </div>
+
+      <div class="second_section_info">
+        <small class="info_boxes_title">
+          <u>ARENA PRINTING INFORMATION</u></small>
+        <P class="info_boxes_desc">Here I worked as a picker and packer that also had warehouse responsibilities. My main duties would include for me to pick the stock from the warehouse and unpack it, check integrity and then repack to ensure stock quality. 
+        <br>
+        I would also be packing straight from the production line/print line, and then catalogue for stocking which I would then take and pack into the right place in the warehouse. Another one of my duties would include me helping sort and stock up new orders and inputting that information into their computer system.
+      </P>
+      <button class="arena_reverse">CLOSE</button>
+      </div>
+
+      <div class="third_section_info">
+        <small class="info_boxes_title"><u>IFORCE WAREHOUSE INFORMATION</u></small>
+        <p class="info_boxes_desc">I worked as a picker and scanner in a very diverse team, which required not only to have good time management skills, but interpersonal skills too, as a lot of the job required communication with other team members to ensure the job was done correctly and efficiently.
+        <br>
+        The packing required me to pick items from a list of online orders from around the warehouse marking any NIL stocks for restock, this role had to be completed as fast as possible as the orders were consistently been sent out.
+        <br>
+        The scanning position required me ot pick up a palette or tote and scan in each item ensuring that it will get stocked into the correct place and updating the computer system with said information.
+        </p>
+        <button class="iforce_reverse">CLOSE</button>
+      </div>
+
+      <div class="fourth_section_info">
+        <small class="info_boxes_title"><u>SEE YOURSELF ONLINE</u></small>
+        <p class="info_boxes_desc">
+          I worked as a late-night nightclub photographer, for this role it was essential to have impeccable interpersonal skills as the main part of the job was dealing with intoxicated people on a night out.  I would either approach people or get approached myself which I would then take their picture with a high quality DSLR camera, which is would then print off on my portable printer and then try to sell them their photo on various items.
+        </p>
+        <button class="seeyou_reverse">CLOSE</button>
+      </div>
+
+      <div class="fifth_section_info">
+        <small class="info_boxes_title"><u>EMPIRE CINEMAS</u></small>
+        <p class="info_boxes_desc">
+          I worked at empire cinemas on a 12-week contract were I learnt a large range of skills and interpersonal behaviour. My duties as a general assistant would include; cleaning, ripping tickets, customer relations as well as retail experience in a fast paced environment where time management was key. Working at empire helped me gain new insight on how to deal and speak with the public as well as such a diverse team accordingly.
+        </p>
+        <button class="empire_reverse">CLOSE</button>
+      </div>
+
+      <div class="sixth_section_info">
+        <small class="info_boxes_title"><u>BARNARDO'S CHARITY SHOP</u></small>
+        <p class="info_boxes_desc">
+          I was a general volunteer for the Barnardos charity for 5 days a few weeks. I helped to sort goods prior to sale in the shop, throwing out ones of no use.
+        </p>
+        <button class="charity_reverse">CLOSE</button>
+      </div>
+
+      <div class="seventh_section_info">
+        <small class="info_boxes_title"><u>WINDMILL (SELECT & SAVE)</u></small>
+        <p class="info_boxes_desc">I delivered newspapers for 5 days a wekk for 7months I delivered around 100 newspapers to people doors every morning before school.</p>
+        <button class="windmill_reverse">CLOSE</button>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------->
+<section class="work_experience">
+  <div class="container">
+
+
+    <div class="row" id="work_row_one">
+        <div class="col-md-4">
+          <div class="first_section">
+            <h5 class="experience_titles">PENN STUDIO</h5>
+              <small class="work_dates">August 2018 - August 2019</small>
+              <ul class="work_lists">
+                <li>HTML / CSS</li>
+                <li>JAVASCRIPT / Jquery</li>
+                <li>PHP and other JS libraries</li>
+              </ul>
+              <button class="penn_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="second_section">
+            <h5 class="experience_titles">ARENA PRINTING</h5>
+              <small class="work_dates">Decemeber 2017 - January 2018</small>
+              <ul class="work_lists">
+                <li>Attention to detail</li>
+                <li>Efficiency</li>
+                <li>Interpersonal Skills</li>
+              </ul>
+              <button class="arena_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="third_section">
+            <h5 class="experience_titles">IFORCE WAREHOUSE</h5>
+              <small class="work_dates">Decemeber 2017 - January 2018</small>
+              <ul class="work_lists">
+                <li>Time management</li>
+                <li>Team work</li>
+                <li>Precision</li>
+              </ul>
+              <button class="iforce_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+      </div>
+
+<!---------------------------------------------------------->
+
+      <div class="row" id="work_row_two">
+        <div class="col-md-4">
+          <div class="fourth_section">
+            <h5 class="experience_titles">SEE YOURSELF ONLINE</h5>
+              <small class="work_dates">November 2017</small>
+              <ul class="work_lists">
+                <li>Creativity</li>
+                <li>Patience</li>
+                <li>Photography</li>
+              </ul>
+              <button class="seeyou_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fifth_section">
+            <h5 class="experience_titles">EMPIRE CINEMAS</h5>
+              <small class="work_dates">October 2016 - January 2017</small>
+              <ul class="work_lists">
+                <li>Interpersonal Skills</li>
+                <li>Customer Relations</li>
+                <li>Retail Experience</li>
+              </ul>
+              <button class="empire_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="sixth_section">
+            <h5 class="experience_titles">BARNARDO'S CHARITY</h5>
+              <small class="work_dates">2011</small>
+              <ul class="work_lists">
+                <li>Sorting</li>
+                <li>Customer relations</li>
+                <li>Proactivity</li>
+              </ul>
+              <button class="charity_pause moreinfo" id="more_info_button">More Info</button>
+          </div>
+        </div>
+      </div>
+
+<!---------------------------------------------------------->
+
+<div class="row" id="work_row_three">
+  <div class="col-md-4"></div>
+
+  <div class="col-md-4">
+      <div class="seventh_section">
+          <h5 class="experience_titles">WINDMILL (SELECT & SAVE)</h5>
+            <small class="work_dates">2010</small>
+              <ul class="work_lists">
+                <li>Waking up early</li>
+                <li>Efficiency</li>
+                <li>Time managment</li>
+              </ul>
+            <button class="windmill_pause moreinfo" id="more_info_button">More Info</button>
+      </div>
+    </div>
+
+        <div class="col-md-4"></div>
+  </div>
+</div>
+</section>
+<!------------------------------------------------>
+
+
+
+
+
+<!-----------SCHOOL ZONE---------------------->
+<section class="school">
+  <div class="container">
+
+    <div class="row" id="circle_one">
+      <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="container" id="school_one">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="college_titles">HIGHBURY COLLEGE</h5>
+                  </div>
+                  <div class="col-md-6">
+                    <small class="college_dates">AUG 2018 - AUG 2019</small>
+                  </div>
+                </div>
+                  <P class="bury_quals">BCS Module 1  - PASS</P>
+                  <p class="bury_quals">MTA HTML 5 - PASS</p>
+                  <p class="bury_quals">CIW Site Development Exam - PASS</p>
+                  <p class="bury_quals">CIW Internet Business Associate - PASS</p>
+                  <p class="bury_quals">BCS Digital Marketing Business Principle - PASS</p>
+            </div>
+        </div>
+      <div class="col-md-4"></div>
+    </div>
+
+<div class="row">
+  <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="container" id="school_two">
+          <div class="row">
+            <div class="col-md-6">
+             <h5 class="college_titles">HALESOWEN COLLEGE</h5>
+            </div>
+            <div class="col-md-6">
+              <small class="college_dates">SEPT 2016 - JUNE 2017</small>
+            </div>
+          </div>
+              <P>LEVEL 3 DIPLOMA - ART & DESIGN</P>
+              <P>PASS PASS</P>
+        </div>
+      </div>
+    <div class="col-md-4"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="container" id="school_three">  
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="college_titles">BOURNEVILLE COLLEGE</h5>
+              </div>
+              <div class="col-md-6">
+                <small class="college_dates">SEPT 2015 - JUNE 2016</small>
+              </div>
+            </div>
+              <p>LEVEL 2 DIPLOMA - ART & DESIGN</p>
+              <p>PASS</p>
+        </div>
+      </div>
+  <div class="col-md-4"></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4"></div>
+    <div class="col-md-4" >
+      <div class="container" id="school_four">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="college_titles">HEART OF WORCESTER (HOW) COLLEGE</h5>
+            </div>
+            <div class="col-md-6">
+              <small class="college_dates">SEPT 2009 - JUNE 2014</small>
+            </div>
+          </div>
+            <p>GAMES DEVELOPMENT AND INTERACTIVE MEDIA</p>
+            <p>PASS</p>
+      </div>
+    </div>
+  <div class="col-md-4"></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="container" id="school_five">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="college_titles">WASELEY HILLS HIGH SCHOOL</h5> 
+            </div>
+            <div class="col-md-6">
+              <small class="college_dates">SEPT 2009 - JUNE 2014</small>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p>GCSE MATHMATICS - C</p>
+              </div>
+              <div class="col-md-6">
+                <p>GCSE SCIENCE -    C</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <p>GCSE ENGLISH -    C</p>
+              </div>
+              <div class="col-md-6">
+                <p>GCSE ART -        C</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <p>GCSE GRAPHICS -   C</p>
+              </div>
+              <div class="col-md-6">
+                <p>BTEC I.T -        DISTINCTION*</p>
+              </div>
+            </div>
+      </div>
+    </div>
+  <div class="col-md-4"></div>
+  </div>
+  </div>
+</section>
+<!-----------SCHOOL ZONE---------------------->
+
+
+
+
+<!-------------------------------------------------------->
+<!-------------------------------------------------------->
+
+
+<!-------------------------------------------------------->
+<!-------------------------------------------------------->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  	<script src="cv_app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

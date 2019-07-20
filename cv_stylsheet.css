@@ -1,0 +1,489 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Quattrocento+Sans&display=swap');
+
+p{font-family: 'Montserrat', sans-serif;}
+h2{font-family: 'Russo One', sans-serif; color:orange; font-weight:bolder;}
+h3{font-family: 'Russo One', sans-serif; color:orange; font-weight:bolder;}
+h4{font-family: 'Russo One', sans-serif; color:orange; font-weight:bolder;}
+h5{font-family: 'Russo One', sans-serif; color:orange; font-weight:bolder;}
+/**** color scheme 
+
+#FFF3B0
+#FAA613
+#E09F3E
+#393E41 
+#688E26
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+body{background-color: black; overflow-x:hidden;}
+
+
+
+a:link {
+  text-decoration: none;
+  
+}
+
+a:visited {
+  text-decoration: none;
+  color:orange;
+}
+
+a:hover {
+  text-decoration: none;
+  color:darkorange;
+}
+
+a:active {
+  text-decoration: none;
+}
+    .svg_gradient{position:fixed; z-index:10; 
+      background:linear-gradient(rgba(204, 238, 255, 0.4), rgba(38, 38, 38, 0.7)); 
+      height:150%; width:100%; top:0%;}
+
+  .the_background_lines{background-color: black; margin-left:auto;
+    margin-right:auto;
+    width:100%;}
+
+  .backer_lines{stroke:orange; height:80%;}
+    .backing_liner{ height:150%; width:100%;}
+/********************FIRST SECTION******************************/
+  h1{text-align:left;
+    color:orange; 
+    background-color:black; 
+    font-weight:bolder;
+    width:30%;
+    padding:4%;
+    position: relative; 
+    z-index: 300;
+  font-family: 'Permanent Marker', cursive;}
+    .james_about{width:100%; margin-top:10%;}
+    .james_experience{width:100%; margin-top: 10%;}
+    .name_undertext{text-align:center; color:white; margin-right:5%; z-index:100; position: absolute;}
+
+
+
+
+
+    #pause_options{margin-top:2.5%;}
+  .james:hover{animation:linear 0.5s name_change forwards;}
+    @keyframes name_change{
+      0%{background-color:black; color:white;}
+      100%{background-color:white; color:orange}
+    }
+
+
+  .pause_button{position: absolute;
+    background:none; 
+    border:none; cursor: pointer; z-index:300;
+    color:orange;}
+    .reverse_button{
+  cursor: pointer; 
+  opacity:0;
+  background:none;
+  border:none; position: absolute; z-index:200;
+color:orange;}
+
+@keyframes pausebutton{
+  0%{color:orange;}
+  100%{color:white;}
+}
+#pau_changer:hover{animation:linear 0.5s pausebutton forwards;}
+#rev_changer:hover{animation:linear 0.5s pausebutton forwards;}
+
+
+
+
+    .the_pause_menu{width:200%; height:155%; 
+      top:0; position: fixed; z-index:50;  
+    }
+
+
+
+	#main_menu{transform:rotate(-40deg); margin-left:auto;
+    margin-right:auto; top:0; left:0; position: absolute;}
+
+	.home{
+		width:100%;
+		font-size:60px; font-weight:bold;
+		-webkit-text-stroke-width: 2px;
+    	-webkit-text-stroke-color: white; color:transparent;
+    	}
+
+/**************************/
+	.about_me{
+		width:100%;
+		font-size:60px; font-weight:bold;
+		-webkit-text-stroke-width:2px;
+		-webkit-text-stroke-color:white; color:transparent;
+		margin-top:4%;}
+	
+/**************************/
+	.experience{
+		width:100%;
+		font-size:60px; font-weight:bold;
+		-webkit-text-stroke-width:2px;
+		-webkit-text-stroke-color:white; color:transparent;
+		margin-top:4%;}
+/**************************/
+	.work{
+		font-size:60px; font-weight:bold;
+		-webkit-text-stroke-width:2px;
+		-webkit-text-stroke-color:white; color:transparent;
+		margin-top:4%;}
+/**************************/
+	.contact{
+		font-size:60px; font-weight:bold;
+		-webkit-text-stroke-width:2px;
+		-webkit-text-stroke-color:white; color:transparent;
+		margin-top:4%;}
+
+
+
+
+
+
+/******TITLE CHANGERS FOR EXPERIENCE*********/
+  .titlebox_one{visibility:visible; position: absolute; z-index:200;}
+  .title_one{font-size:70px; color: white; text-align:left; }
+  .titleone_button{background-color:black; color:orange;  margin-top:5%;
+    border:none; height:50px; width: 250px; margin-right:100%; border-radius:100px;}
+
+
+  @keyframes title_change{
+    0%{color:orange; background-color:black; border:none;}
+    50%{border:solid black 0.5px;}
+    100%{color:black; background-color:white; border:none;}
+  }
+
+
+  .titlebox_two{visibility:hidden; position:absolute; z-index:200;}
+  .title_two{font-size:70px; color: white;  text-align:left;}
+  .titletwo_button{background-color: black; color:orange; margin-top:5%;
+    border:none; height:50px; width:250px; margin-right:100%; border-radius:100px;}
+
+
+ #both_title_buttons:hover{animation:linear 0.5s title_change forwards;}
+
+
+
+
+
+
+/****************************PAUSE MENU**********************************************/
+h4{font-size:80px; color: orange;     
+
+  -webkit-text-stroke-width:2.5px;
+    -webkit-text-stroke-color:orange; color:transparent;}
+#menu_options{text-align:center; position:absolute; width:100%; margin-left:10%; bottom:70%;}
+#menu_items:hover{animation:linear 0.1s items_changer forwards;}
+@keyframes items_changer{
+  0%{-webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:orange; color:transparent;
+    font-size:80px;}
+  100%{
+    -webkit-text-stroke-width:4px;
+    -webkit-text-stroke-color:orange; color:orange;
+    font-size:100px;
+  }
+}
+
+.option_one{position: absolute;  z-index:300; opacity:0; font-weight:bolder;}
+
+.option_two{position: absolute;  z-index:300; opacity:0; font-weight:bolder;}
+
+.option_three{position: absolute; z-index:300;   opacity:0; font-weight:bolder;}
+
+.option_four{position:absolute;  z-index:300;  opacity:0; font-weight:bolder;}
+
+.option_five{position: absolute; z-index:300; opacity:0; font-weight:bolder;}
+
+/********************************ABOUT ME******************************************/
+
+/*******************************EXPERIENCE*******************************************/
+.jumbotron{
+  background:url('jameS_the_dude.jpg');
+ background-repeat:no-repeat; 
+ margin-bottom:0; 
+height:550px;
+background-size: 90% 90%; background-size:cover; 
+background-position:0% 20%;}
+
+.experience_firstsection{margin-top: 100px;}
+
+
+
+  .work_experience{text-align: center; position: absolute; width:100%; top:600px;}
+
+
+  .experience_titles{color:white;}
+  .work_lists{text-align: left; color:whitesmoke}
+
+.school{visibility: hidden; position: absolute; top:60%; z-index:50; width:100%; text-align:center;}
+.bury_quals{font-size:12px;}
+
+  #school_one{position:absolute; margin-top:10%; background-color:whitesmoke; border-radius:500%; 
+    height:400px; width:400px; text-align:center; padding-top:100px; border:orange 0.5px solid;}
+
+  #school_two{position:absolute; margin-top:10%; background-color:whitesmoke; border-radius:500%; 
+    height:400px; width:400px; text-align:center; padding-top:140px; border:orange 0.5px solid;}
+
+  #school_three{position:absolute; margin-top:10%; background-color:whitesmoke; border-radius:500%; 
+    height:400px; width:400px; text-align: center; padding-top:140px; border:orange 0.5px solid;}
+
+  #school_four{position:absolute; margin-top:10%; background-color:whitesmoke; border-radius:500%;
+   height:400px; width:400px; text-align:center; padding-top:140px; border:orange 0.5px solid;}
+
+  #school_five{position:absolute; margin-top:10%; background-color:whitesmoke; border-radius:500%;
+   height:400px; width:400px; text-align: center; padding-top:120px; font-size:15px; border:orange 0.5px solid;}
+
+
+
+
+.section_info_boxes{text-align: center; position: relative;}
+.info_boxes_title{font-size:25px; color:orange; font-weight:bolder;}
+.info_boxes_desc{font-size:15px; padding-top:5%; color:grey;} 
+
+#work_row_one{margin-top:10%;}
+
+#work_row_two{margin-top:15%;}
+
+#work_row_three{margin-top:10%;}
+
+
+
+.work_lists{color:white;}
+.work_dates{color:whitesmoke; font-weight:bolder;}
+
+#more_info_button{width:90%; background-color:orange; color:white; border:solid 1px orange;}
+
+
+
+
+
+.first_section_info{position:fixed; z-index:300; 
+    background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+   bottom:25%; padding:5%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;} 
+.first_section{position:relative; z-index:100}
+.penn_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.second_section_info{position: fixed; z-index:300; 
+  background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+  bottom:25%; padding:4%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+.second_section{position: relative; z-index:100;}
+.arena_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.third_section_info{position: fixed; z-index:300;
+background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+   bottom:25%; padding:3%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+.third_section{position: relative; z-index:100;}
+.iforce_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.fourth_section_info{position: fixed; z-index:300;
+background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+  bottom:25%; padding:5%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+.fourth_section{position:relative; z-index:100;}
+.seeyou_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.fifth_section_info{position:fixed; z-index:300;;
+background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;
+bottom:25%; padding:5%;}
+.fifth_section{position: relative; z-index:100;}
+.empire_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.sixth_section_info{position: fixed; z-index:300; 
+background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+   bottom:25%; padding:8%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+.sixth_section{position: relative; z-index:100;}
+.charity_reverse{background-color:orange; color:white; border:solid 1px orange;}
+
+.seventh_section_info{position: fixed; z-index:300; 
+background-color:whitesmoke; width:700px; height:400px; visibility:hidden; 
+ bottom:25%; padding:8%;
+margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+.seventh_section{position: relative; z-index: 100;}
+.windmill_reverse{background-color:orange; color:white; border:solid 1px orange;}
+/***********************************EXPERIENCE***************************************/
+
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+
+.college_titles{color: orange;}
+.college_dates{color:grey;}
+
+
+
+
+
+/***********************************ABOUT***************************************/
+  .about_title{color:white; font-size:90px; margin-top:15%;}
+
+
+
+  #personal_statement{position:absolute; z-index:100; text-align: center; width: 100%; background-color:rgba(0, 0, 0, 0.4); border-radius:25px; margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+margin-top:5%;}
+
+  .Statement{}
+
+  .statement_title{color:orange; font-size:35px; padding-bottom:5%;}
+  .statement_desc{color:lightgrey;}
+
+  .statement_skills{text-align:center;}
+  .skill_list{font-weight:bolder; color:orange;}
+
+
+
+  #hobbies_intrests{position:absolute; z-index:100; text-align: center; width: 100%; background-color:rgba(0, 0, 0, 0.4); border-radius:25px; margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+margin-top:50%;}
+  .hobbies{}
+  .hobbies_title{color:orange; font-size:35px; padding-bottom:5%;}
+  .hobbies_desc{color:lightgrey;}
+
+
+    @media only screen and (min-width: 1024px) {
+      #hobbies_intrests{margin-top:60%}
+    }
+
+
+
+
+
+
+
+
+
+
+/***********************************WORK***************************************/
+
+  .whole_section{position: absolute; z-index:100; top:70%; margin-left: auto;
+margin-right: auto;
+left:0%;
+right:0%;}
+
+  #work_content{margin-bottom:20%; text-align: center;}
+  
+  #work_picture{height:100%; width:100%; border-radius:50px;}
+
+  #work_descside{background-color:rgba(0, 0, 0, 0.4); border-radius:50px;
+    height:100%; width:100%; margin-top:3%; margin-bottom:3%;}
+
+
+
+
+.work_titles{color: orange; font-size:40px; padding-top:5%;}
+.work_tags{color:lightgrey;}
+.work_blurb{color:lightgrey;}
+.work_desc{color:lightgrey;}
+
+.work_git{color:orange; padding-bottom:50px;}
+.fa-github-square{color:orange; }
+
+#work_links:hover{animation:linear 0.5 work_change forwards;}
+@keyframes work_change{
+  0%{color:orange;}
+  100%{color:#ffe8b5}
+}
+/***********************************WORK***************************************/
+
+
+
+/***********************************CONTACT***************************************/
+  .contact_title{color:white; font-size:90px; margin-top:30px;}
+
+  #social_mediasection{position: relative; z-index:100;}
+
+  .social_media{text-align: center; position: absolute; z-index:50; 
+    margin-left:0;
+    margin-right:0;
+    left:0;
+    right:0;
+    background-color:rgba(0, 0, 0, 0.4);
+  padding-bottom:5%;
+border-radius:25px; 
+margin-top:650px;}
+
+    .social_title{font-size:35px; color:orange; 
+      font-weight:bolder; padding-bottom:5%; padding-top:5%;}
+    .social_subtitles{color:orange; font-weight:bolder;}
+
+    .socialmedia_button{background:none; border:none;}
+
+    #social_icons{color:lightgrey;}
+
+    .social_quad:hover{animation:linear contact_change 0.3s forwards;}
+      @keyframes contact_change{
+        0%{color:lightgrey;}
+        100%{color:orange;}
+      }
+
+
+
+
+    #email_info_backer{
+    position:absolute; z-index:100;  
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.4) 
+    border-radius:25px;
+    left:50%;
+    transform:translateX(-50%);
+    margin-top:5%;
+  }
+
+    #email_info{
+      background-color:rgba(0, 0, 0, 0.4); 
+      border-radius:25px; padding-top:5%; padding-bottom:5%;}
+
+      #emailinfo_row{margin-left:0;
+    margin-right:0;
+    left:0;
+    right:0;}
+
+      .contact_infotitle{font-size:50px; color:orange; font-weight:bolder; margin-bottom:15%;}
+
+      .contact_email{color:lightgrey;}
+      .contact_jimjam{color:orange;}
+
+      .contact_number{color:lightgrey;}
+      .contact_mynumber{color:orange;}
+
+      .contact_desc{margin-top:5%; color:lightgrey;}
+/***********************************CONTACT***************************************/
